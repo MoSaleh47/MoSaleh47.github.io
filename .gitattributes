@@ -1,0 +1,16 @@
+# Keep binaries byte-exact. Without this, core.autocrlf=true on Windows can
+# rewrite line endings inside a file git mistakes for text, which corrupts PDFs.
+*.pdf  binary
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.ico  binary
+*.woff binary
+*.woff2 binary
+
+# Normalise source files to LF in the repository.
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.md   text eol=lf
+*.svg  text eol=lf
