@@ -1,0 +1,906 @@
+<!doctype html>
+<html lang="en" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Samir Mahamat Saleh — AI Engineer &amp; Data Scientist</title>
+
+<meta name="description" content="Samir Mahamat Saleh — AI Engineer, Data Scientist and Data Engineer based in Île-de-France, France. Generative AI, RAG and agents, LLM evaluation, end-to-end data pipelines. Microsoft Certified: Azure AI Apps and Agents Developer Associate.">
+<meta name="author" content="Samir Mahamat Saleh">
+<meta name="keywords" content="AI Engineer, Data Scientist, Data Engineer, GenAI, RAG, LLM evaluation, Python, Azure AI, Paris, Île-de-France">
+<meta name="theme-color" content="#0e6e6e" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0a0f0e" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://mosaleh47.github.io/">
+
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Samir Mahamat Saleh — AI Engineer &amp; Data Scientist">
+<meta property="og:description" content="Generative AI, RAG and agents, LLM evaluation and end-to-end data pipelines. Two years shipping GenAI tools at the French Civil Aviation Authority. Available immediately.">
+<meta property="og:url" content="https://mosaleh47.github.io/">
+<meta property="og:locale" content="en_GB">
+<meta property="og:locale:alternate" content="fr_FR">
+<meta property="og:image" content="https://mosaleh47.github.io/assets/img/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Samir Mahamat Saleh — AI Engineer &amp; Data Scientist">
+<meta name="twitter:description" content="Generative AI, RAG and agents, LLM evaluation and end-to-end data pipelines. Available immediately.">
+
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/favicon.svg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<link rel="stylesheet" href="assets/css/styles.css">
+
+<script>
+  /* Set the theme before first paint so there is no flash of the wrong palette. */
+  try {
+    var t = localStorage.getItem("theme");
+    if (t === "dark" || t === "light") document.documentElement.setAttribute("data-theme", t);
+  } catch (e) {}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Samir Mahamat Saleh",
+  "givenName": "Samir",
+  "familyName": "Mahamat Saleh",
+  "jobTitle": "AI Engineer, Data Scientist & Data Engineer",
+  "url": "https://mosaleh47.github.io/",
+  "email": "mailto:mahamatsaleh.samiradam@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Île-de-France",
+    "addressCountry": "FR"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "aivancity School of AI & Data for Business & Society"
+  },
+  "knowsLanguage": ["fr", "en"],
+  "knowsAbout": [
+    "Generative AI", "Retrieval-Augmented Generation", "LLM evaluation",
+    "AI agents", "Python", "SQL", "Data engineering", "Azure AI", "Machine learning"
+  ],
+  "hasCredential": {
+    "@type": "EducationalOccupationalCredential",
+    "name": "Microsoft Certified: Azure AI Apps and Agents Developer Associate",
+    "credentialCategory": "certification",
+    "recognizedBy": { "@type": "Organization", "name": "Microsoft" }
+  },
+  "sameAs": [
+    "https://github.com/MoSaleh47",
+    "https://www.linkedin.com/in/samir-adam-mahamat-saleh-4252b0210",
+    "https://ssrn.com/abstract=6832218"
+  ]
+}
+</script>
+</head>
+
+<body>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#top">
+      <span class="brand-mark" aria-hidden="true">SMS</span>
+      <span class="brand-text">Samir Mahamat Saleh</span>
+    </a>
+
+    <nav aria-label="Main navigation">
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about"      data-i18n="nav.about">About</a></li>
+        <li><a href="#skills"     data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="#projects"   data-i18n="nav.projects">Projects</a></li>
+        <li><a href="#research"   data-i18n="nav.research">Research</a></li>
+        <li><a href="#education"  data-i18n="nav.education">Education</a></li>
+        <li><a href="#cv"         data-i18n="nav.cv">CV</a></li>
+        <li><a href="#contact"    data-i18n="nav.contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="nav-tools">
+      <button class="lang-btn" id="langBtn" type="button" aria-label="Switch to French" title="Français">FR</button>
+
+      <button class="icon-btn" id="themeBtn" type="button" aria-label="Switch colour theme" title="Switch colour theme">
+        <svg class="theme-icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>
+        </svg>
+        <svg class="theme-icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="4.2"/>
+          <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M19.1 4.9l-1.8 1.8M6.7 17.3l-1.8 1.8"/>
+        </svg>
+      </button>
+
+      <button class="icon-btn nav-toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M4 7h16M4 12h16M4 17h16"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <span class="pill">
+          <span class="dot dot-live" aria-hidden="true"></span>
+          <span data-i18n="hero.pill">Available immediately — open to permanent roles</span>
+        </span>
+
+        <h1>Samir Mahamat Saleh</h1>
+        <p class="hero-role" data-i18n="hero.role">AI Engineer · Data Scientist &amp; Data Engineer</p>
+
+        <p class="hero-pitch" data-i18n="hero.pitch">
+          I build generative-AI and data systems that real teams actually use — and I measure,
+          rigorously, whether they work. Two years doing exactly that inside the French Civil
+          Aviation Authority.
+        </p>
+
+        <ul class="hero-meta">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/>
+            </svg>
+            <span data-i18n="hero.loc">Île-de-France, France</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 11.1V18a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5V4.6A1.6 1.6 0 0 1 10.6 3h2.8A1.6 1.6 0 0 1 15 4.6V6h5a2 2 0 0 1 2 2v3.1z"/><path d="M2 12h20"/>
+            </svg>
+            <span data-i18n="hero.open">Permanent roles · hybrid or on-site</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 2 3 6v6c0 5 3.8 9.3 9 10 5.2-.7 9-5 9-10V6l-9-4z"/><path d="m9 12 2 2 4-4"/>
+            </svg>
+            <span data-i18n="hero.cert">Microsoft Certified: Azure AI</span>
+          </li>
+        </ul>
+
+        <div class="cta-row">
+          <a class="btn btn-primary" id="heroMail" href="#contact">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/>
+            </svg>
+            <span data-i18n="cta.email">Get in touch</span>
+          </a>
+
+          <a class="btn" href="#cv">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/>
+            </svg>
+            <span data-i18n="cta.cv">Download CV</span>
+          </a>
+
+          <a class="btn btn-ghost" href="https://www.linkedin.com/in/samir-adam-mahamat-saleh-4252b0210" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3 9h4v12H3V9zm6.5 0h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.9 2.5 4.9 5.75V21h-4v-5.8c0-1.4-.5-2.35-1.75-2.35-1.05 0-1.65.7-1.9 1.4-.1.25-.12.6-.12.95V21h-4V9z"/>
+            </svg>
+            LinkedIn
+          </a>
+
+          <a class="btn btn-ghost" href="https://github.com/MoSaleh47" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/>
+            </svg>
+            GitHub
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-card" aria-hidden="true"><span>SMS</span></div>
+    </div>
+
+    <!-- key numbers -->
+    <div class="stats">
+      <div class="stat">
+        <span class="stat-num">2 <span data-i18n="stat.yrs">yrs</span></span>
+        <span class="stat-lab" data-i18n="stat.dgac">Apprenticeship at the French Civil Aviation Authority (DGAC/DSAC)</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">48</span>
+        <span class="stat-lab" data-i18n="stat.fields">Structured JSON fields extracted from free-text safety reports</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">&gt;80%</span>
+        <span class="stat-lab" data-i18n="stat.time">Processing time saved per report — 30+ min down to about 5</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">1</span>
+        <span class="stat-lab" data-i18n="stat.pub">Scientific preprint on LLM evaluation (SSRN, 2026)</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="kick.about">About</span>
+      <h2 data-i18n="about.h">Measurement over intuition</h2>
+      <p class="sec-sub" data-i18n="about.sub">A dual profile: shipping end-to-end data and GenAI systems, and proving they hold up.</p>
+    </div>
+
+    <div class="about-grid">
+      <div class="about-body reveal">
+        <p data-i18n="about.p1">
+          I hold a five-year degree (Bac+5, RNCP Level 7) in Artificial Intelligence and Data Science
+          from <strong>aivancity School of AI &amp; Data</strong>, I am
+          <strong>Microsoft Certified: Azure AI Apps and Agents Developer Associate</strong>, and I am the
+          author of a scientific preprint on LLM evaluation.
+        </p>
+        <p data-i18n="about.p2">
+          I spent two years as an apprentice at the <strong>DGAC/DSAC</strong>, the French Civil Aviation
+          Authority, designing and delivering generative-AI tools used by real business teams in a
+          sensitive, heavily regulated public-sector environment. Shipping to actual users — with their
+          feedback, their edge cases and their compliance constraints — taught me more than any benchmark.
+        </p>
+        <p data-i18n="about.p3">
+          My work has two entry points. On one side, <strong>end-to-end data processing</strong>:
+          multi-source ingestion, parsing, cleaning, quality and consistency checks, APIs and reporting.
+          On the other, the design and above all the <strong>rigorous evaluation</strong> of RAG systems,
+          agents and classification models — groundedness, citation faithfulness, calibration, and the
+          discipline to publish a negative result when that is what the data says.
+        </p>
+        <p data-i18n="about.p4">
+          I am starting an <strong>MSc in Data Engineering &amp; Cloud Computing</strong> in November 2026
+          to deepen the distributed-systems side: Spark, Kafka, Databricks and multi-cloud.
+        </p>
+      </div>
+
+      <aside class="panel reveal">
+        <h3 data-i18n="about.facts">At a glance</h3>
+        <dl class="kv">
+          <div>
+            <dt data-i18n="fact.loc">Location</dt>
+            <dd data-i18n="fact.loc.v">Île-de-France, France · driving licence</dd>
+          </div>
+          <div>
+            <dt data-i18n="fact.avail">Availability</dt>
+            <dd data-i18n="fact.avail.v">Immediately</dd>
+          </div>
+          <div>
+            <dt data-i18n="fact.roles">Target roles</dt>
+            <dd data-i18n="fact.roles.v">AI / GenAI Engineer · Data Scientist · Data Engineer · Python developer</dd>
+          </div>
+          <div>
+            <dt data-i18n="fact.lang">Languages</dt>
+            <dd data-i18n="fact.lang.v">French (native) · English (C1)</dd>
+          </div>
+          <div>
+            <dt data-i18n="fact.links">Links</dt>
+            <dd>
+              <a href="https://github.com/MoSaleh47" target="_blank" rel="noopener noreferrer">GitHub</a> ·
+              <a href="https://www.linkedin.com/in/samir-adam-mahamat-saleh-4252b0210" target="_blank" rel="noopener noreferrer">LinkedIn</a> ·
+              <a href="https://ssrn.com/abstract=6832218" target="_blank" rel="noopener noreferrer">SSRN</a>
+            </dd>
+          </div>
+        </dl>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="kick.skills">Skills</span>
+      <h2 data-i18n="skills.h">Technical toolkit</h2>
+      <p class="sec-sub" data-i18n="skills.sub">What I use day to day, grouped the way I actually work.</p>
+    </div>
+
+    <div class="skill-grid">
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 7-5 5 5 5"/><path d="m16 7 5 5-5 5"/></svg>
+          <span data-i18n="sk.lang">Languages</span>
+        </h3>
+        <ul class="tags"><li>Python</li><li>SQL</li><li>TypeScript</li></ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3a4 4 0 0 0-4 4v1a3 3 0 0 0 0 6v1a4 4 0 0 0 8 0v-1a3 3 0 0 0 0-6V7a4 4 0 0 0-4-4z"/><path d="M12 3v18"/></svg>
+          <span data-i18n="sk.genai">GenAI, LLMs &amp; agents</span>
+        </h3>
+        <ul class="tags">
+          <li data-i18n="t.ragdh">Dense &amp; hybrid RAG</li><li>Embeddings</li>
+          <li data-i18n="t.chunk">Chunking (parent-child)</li><li>FAISS</li><li>Azure AI Search</li>
+          <li>BM25 / TF-IDF</li><li data-i18n="t.rrf">Reciprocal rank fusion</li><li data-i18n="t.rerank">Reranking</li>
+          <li data-i18n="t.prompt">Prompt engineering</li><li data-i18n="t.json">Structured JSON output</li>
+          <li data-i18n="t.agents">Agents &amp; orchestration</li><li>Self-consistency</li>
+          <li>MCP</li><li>LoRA / PEFT</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 20h18"/><path d="M6 20V9"/><path d="M11 20V4"/><path d="M16 20v-7"/><path d="M21 20v-11"/></svg>
+          <span data-i18n="sk.eval">Evaluation &amp; reliability</span>
+        </h3>
+        <ul class="tags">
+          <li>RAGAS</li><li data-i18n="t.gold">Gold question sets</li>
+          <li data-i18n="t.ungrounded">Ungrounded-answer rate</li><li data-i18n="t.cite">Citation faithfulness</li>
+          <li data-i18n="t.calib">Calibration</li><li>F0.5</li><li data-i18n="t.pr">Precision–recall</li>
+          <li data-i18n="t.boot">Bootstrap &amp; Wilson CIs</li><li data-i18n="t.imb">Imbalanced data</li>
+          <li data-i18n="t.inj">Prompt-injection tests</li><li>Langfuse</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><circle cx="4.5" cy="7" r="2"/><circle cx="19.5" cy="7" r="2"/><circle cx="4.5" cy="17" r="2"/><circle cx="19.5" cy="17" r="2"/><path d="m6.3 8.1 3.3 2.4M17.7 8.1l-3.3 2.4M6.3 15.9l3.3-2.4M17.7 15.9l-3.3-2.4"/></svg>
+          <span data-i18n="sk.ml">Machine learning &amp; NLP</span>
+        </h3>
+        <ul class="tags">
+          <li>Scikit-learn</li><li>TensorFlow</li><li>PyTorch</li><li data-i18n="t.clf">Classification</li>
+          <li data-i18n="t.ie">Information extraction</li><li>OCR</li><li>GANs (Pix2Pix)</li>
+          <li>SSIM / PSNR</li><li>Hugging Face</li><li>Qwen via Ollama</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5.5" rx="8" ry="3"/><path d="M4 5.5v13c0 1.7 3.6 3 8 3s8-1.3 8-3v-13"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+          <span data-i18n="sk.data">Data engineering</span>
+        </h3>
+        <ul class="tags">
+          <li>Pandas</li><li>NumPy</li><li>DuckDB</li><li data-i18n="t.multi">Multi-source ingestion</li>
+          <li data-i18n="t.parse">XML / PDF / JSON parsing</li><li data-i18n="t.clean">Cleaning</li>
+          <li data-i18n="t.dq">Data quality</li><li data-i18n="t.batch">Batch pipelines</li>
+          <li data-i18n="t.auto">Automation</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2.5" y="3.5" width="19" height="13" rx="2"/><path d="M8 21h8M12 16.5V21"/></svg>
+          <span data-i18n="sk.back">Backend &amp; interfaces</span>
+        </h3>
+        <ul class="tags">
+          <li>FastAPI</li><li>Flask</li><li data-i18n="t.rest">REST APIs</li><li>Streamlit</li>
+          <li>Gradio</li><li>PyQt5</li><li>React 18 + Vite</li><li>Tailwind CSS</li>
+          <li>React Flow</li><li>Recharts</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17.5 19a4.5 4.5 0 0 0 .5-8.97A6 6 0 0 0 6.2 9.3 4.4 4.4 0 0 0 6.5 19h11z"/></svg>
+          <span data-i18n="sk.cloud">Cloud &amp; DevOps</span>
+        </h3>
+        <ul class="tags">
+          <li>Azure</li><li>Azure OpenAI</li><li>Azure AI Foundry</li><li>Docker</li>
+          <li>Git / GitHub</li><li>GitHub Actions</li><li>Azure DevOps</li>
+          <li data-i18n="t.tests">Tests &amp; logging</li><li>Copilot · Cursor · Claude Code</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 3v18h18"/><path d="m7 15 4-5 3 3 4-6"/></svg>
+          <span data-i18n="sk.analysis">Analysis &amp; reporting</span>
+        </h3>
+        <ul class="tags">
+          <li data-i18n="t.sqlan">Analytical SQL</li><li>Power BI</li><li>Tableau</li>
+          <li>Matplotlib</li><li>Excel</li><li data-i18n="t.doc">Technical documentation</li>
+          <li data-i18n="t.explain">Explaining to non-technical teams</li>
+        </ul>
+      </article>
+
+      <article class="skill-card reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 3 6v6c0 5 3.8 9.3 9 10 5.2-.7 9-5 9-10V6l-9-4z"/><path d="M9 12h6M12 9v6"/></svg>
+          <span data-i18n="sk.gov">Governance &amp; compliance</span>
+        </h3>
+        <ul class="tags">
+          <li>GDPR</li><li>EU AI Act</li><li data-i18n="t.respai">Responsible AI</li>
+          <li data-i18n="t.priv">Data confidentiality</li><li data-i18n="t.pub">Public-sector regulation</li>
+        </ul>
+      </article>
+
+      <article class="skill-card is-learning reveal">
+        <h3>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 2 8l10 5 10-5-10-5z"/><path d="M5 10.5V16c0 1.9 3.1 3.5 7 3.5s7-1.6 7-3.5v-5.5"/></svg>
+          <span data-i18n="sk.learning">Currently learning — MSc 2026–2027</span>
+        </h3>
+        <ul class="tags">
+          <li>Spark</li><li>Kafka</li><li>MongoDB</li><li>Databricks</li><li>AWS</li>
+          <li>Terraform</li><li data-i18n="t.dist">Distributed algorithms</li>
+        </ul>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="kick.exp">Experience</span>
+      <h2 data-i18n="exp.h">Professional experience</h2>
+      <p class="sec-sub" data-i18n="exp.sub">Five years of applied work, from start-up data analysis to GenAI in a regulated public authority.</p>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl-item reveal">
+        <div class="tl-top">
+          <span class="tl-role" data-i18n="exp1.role">Data Science Officer — DGAC / DSAC</span>
+          <span class="tl-when" data-i18n="exp1.when">Oct 2024 – Sep 2026</span>
+        </div>
+        <p class="tl-org">
+          <span data-i18n="exp1.org">French Civil Aviation Authority, Civil Aviation Safety Directorate</span>
+          <span class="tl-place">Paris, France</span>
+        </p>
+        <ul class="tl-points">
+          <li data-i18n="exp1.b1">Designed an AI solution for processing air-safety occurrence reports, turning free-text accounts into <strong>48 structured JSON fields</strong>, with automated cleaning, integrity validation and consistency checks.</li>
+          <li data-i18n="exp1.b2">Automated the pre-filling of regulatory PDF forms from the extracted data, cutting processing time per report from <strong>over 30 minutes to about 5</strong> — more than 80% saved on data entry and lookup.</li>
+          <li data-i18n="exp1.b3">Built the full application chain in Python: LLM extraction, JSON cleaning and validation, form generation, a FastAPI backend with several REST endpoints, and a web interface for business users.</li>
+          <li data-i18n="exp1.b4">Evaluated the solution on <strong>around a hundred</strong> real air-safety occurrences, verifying structured outputs, regulatory fields and data consistency before use.</li>
+          <li data-i18n="exp1.b5">Rolled it out to 5 business users with hands-on testing, feedback collection, fixes, technical and functional documentation, and iterative improvement.</li>
+        </ul>
+      </li>
+
+      <li class="tl-item is-dim reveal">
+        <div class="tl-top">
+          <span class="tl-role" data-i18n="exp2.role">Python Developer Intern — UBA Chad</span>
+          <span class="tl-when" data-i18n="exp2.when">Jun – Aug 2023</span>
+        </div>
+        <p class="tl-org">
+          <span data-i18n="exp2.org">United Bank for Africa — multi-branch banking data processing</span>
+          <span class="tl-place" data-i18n="exp2.place">Chad</span>
+        </p>
+        <ul class="tl-points">
+          <li data-i18n="exp2.b1">Built a PyQt5 desktop application letting business teams import, clean and consolidate Excel files coming from several bank branches.</li>
+          <li data-i18n="exp2.b2">Automated the data-cleaning steps with Python and Pandas, then generated Matplotlib visualisations to support analysis and reporting.</li>
+        </ul>
+      </li>
+
+      <li class="tl-item is-dim reveal">
+        <div class="tl-top">
+          <span class="tl-role" data-i18n="exp3.role">Junior Data Analyst — AI Fashion</span>
+          <span class="tl-when" data-i18n="exp3.when">Jan–Mar 2022 · Jul–Aug 2022</span>
+        </div>
+        <p class="tl-org">
+          <span data-i18n="exp3.org">Start-up project and year-validation internship, aivancity AI Clinic</span>
+          <span class="tl-place" data-i18n="exp3.place">Remote</span>
+        </p>
+        <ul class="tl-points">
+          <li data-i18n="exp3.b1">Collected and extracted web data from e-commerce sites and perfume and clothing brands, luxury and streetwear segments included, to feed product analysis.</li>
+          <li data-i18n="exp3.b2">Cleaned, structured and stored the datasets with Excel and Python/Pandas, then produced visualisations and actionable findings.</li>
+          <li data-i18n="exp3.b3">Built an olfactory benchmark based on ingredients and notes, with comparative analysis of fragrance components.</li>
+        </ul>
+      </li>
+
+      <li class="tl-item is-dim reveal">
+        <div class="tl-top">
+          <span class="tl-role" data-i18n="exp4.role">Junior Data Analyst — Bunqr</span>
+          <span class="tl-when" data-i18n="exp4.when">Sep – Dec 2021</span>
+        </div>
+        <p class="tl-org">
+          <span data-i18n="exp4.org">Start-up project, aivancity AI Clinic</span>
+          <span class="tl-place" data-i18n="exp4.place">Remote</span>
+        </p>
+        <ul class="tl-points">
+          <li data-i18n="exp4.b1">Accounting-automation project: reading invoices with OCR and algorithmically classifying documents into a chart of accounts.</li>
+        </ul>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="kick.proj">Projects</span>
+      <h2 data-i18n="proj.h">Selected projects</h2>
+      <p class="sec-sub" data-i18n="proj.sub">Most of these are public on GitHub, with measured results rather than demos.</p>
+    </div>
+
+    <div class="proj-filters" role="group" aria-label="Filter projects by theme">
+      <button class="chip" type="button" data-filter="all" aria-pressed="true" data-i18n="filt.all">All</button>
+      <button class="chip" type="button" data-filter="genai" aria-pressed="false" data-i18n="filt.genai">GenAI &amp; RAG</button>
+      <button class="chip" type="button" data-filter="eval" aria-pressed="false" data-i18n="filt.eval">Evaluation &amp; research</button>
+      <button class="chip" type="button" data-filter="ml" aria-pressed="false" data-i18n="filt.ml">ML &amp; simulation</button>
+      <button class="chip" type="button" data-filter="app" aria-pressed="false" data-i18n="filt.app">Applications</button>
+    </div>
+
+    <div class="proj-grid" id="projGrid">
+
+      <article class="proj reveal" data-tags="genai eval">
+        <span class="proj-badge" data-i18n="badge.thesis">Final-year thesis</span>
+        <div class="proj-head">
+          <h3 data-i18n="p1.t">Where RAG Breaks — aviation-regulation QA</h3>
+          <span class="proj-year">2025–2026</span>
+        </div>
+        <p data-i18n="p1.d">
+          Citation-grounded question answering over EU aviation regulations, built to find out where
+          conventional RAG fails and whether a calibrated escalation path fixes it: hierarchy-aware
+          retrieval, hybrid search, reranking, verification and human review. 109 legal parents,
+          1,535 retrievable children, a 99-question evidence-linked benchmark with zero parent leakage.
+        </p>
+        <ul class="tags"><li>RAG</li><li>FAISS</li><li>BM25 + RRF</li><li>Reranking</li><li>LoRA / PEFT</li><li>LaTeX</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/Where-RAG-Breaks---Citation-Grounded-Question-Answering-and-Escalation-over-EU-Aviation-Regulations" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="genai eval app">
+        <span class="proj-badge" data-i18n="badge.os">Open source</span>
+        <div class="proj-head">
+          <h3>AI Act Evidence Desk</h3>
+          <span class="proj-year">2026</span>
+        </div>
+        <p data-i18n="p2.d">
+          An agentic RAG assistant that turns an AI use case into a source-grounded EU AI Act evidence map,
+          for product owners and compliance analysts. Parent-child chunking, hybrid BM25/TF-IDF retrieval
+          fused by reciprocal rank fusion, reranking, then three-pass synthesis with self-consistency
+          (k=3) and an explicit critique step. Shipped with a three-tool MCP server, Langfuse tracing,
+          versioned RAGAS results and five prompt-injection test scenarios.
+        </p>
+        <ul class="tags"><li>Agentic RAG</li><li>MCP</li><li>RAGAS</li><li>Langfuse</li><li>Gradio</li><li>Python</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/AI-Act-Evidence-Desk" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="eval">
+        <span class="proj-badge" data-i18n="badge.pub">Publication</span>
+        <div class="proj-head">
+          <h3 data-i18n="p3.t">VCBench — LLM evaluation on highly imbalanced data</h3>
+          <span class="proj-year">2026</span>
+        </div>
+        <p data-i18n="p3.d">
+          Companion code to an SSRN preprint: evaluating locally run open-weight LLMs (Qwen3-32B via
+          Ollama, quantised GGUF) on binary classification with a very low positive rate. Compares
+          vanilla, chain-of-thought, few-shot and hybrid prompting with F0.5, precision, recall,
+          positive-prediction rate, PR curves, bootstrap and Wilson intervals, against a TF-IDF logistic
+          baseline. The documented conclusion is a negative one: small-sample F0.5 gains are unstable
+          without calibration diagnostics, and the classical baseline still wins.
+        </p>
+        <ul class="tags"><li>LLM evaluation</li><li>Qwen3 / Ollama</li><li>Calibration</li><li>F0.5</li><li>Bootstrap CIs</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/vcbench-improvement" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+          <a class="link-btn" href="https://ssrn.com/abstract=6832218" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19.5V5a2 2 0 0 1 2-2h12.5v18H6.5a2.5 2.5 0 0 1-2.5-2.5z"/><path d="M8 7h6M8 11h6"/></svg>
+            <span data-i18n="link.paper">Preprint</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="ml app">
+        <div class="proj-head">
+          <h3 data-i18n="p4.t">Hospital Digital Twin</h3>
+          <span class="proj-year">2026</span>
+        </div>
+        <p data-i18n="p4.d">
+          A SimPy discrete-event twin of a hospital — ER, ICU and ward — with realistic boarding, where a
+          full ICU blocks ER beds and congestion cascades backwards. A gradient-boosting model forecasts
+          peak ICU load 24 hours ahead, backtested out-of-sample against a naive baseline. Under an
+          epidemic wave, a targeted capacity package takes the median ER wait from 4,613 to 71 minutes
+          and treats 63% more patients; adding ER beds instead would have matched the headline number
+          while tripling boarding time. Two interfaces on one engine: a Flask/ECharts command centre and
+          a Streamlit dashboard.
+        </p>
+        <ul class="tags"><li>SimPy</li><li data-i18n="t.gbm">Gradient boosting</li><li>Flask</li><li>ECharts</li><li>Streamlit</li><li data-i18n="t.backtest">Backtesting</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/Hospital-Digital-Twin" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="genai app">
+        <div class="proj-head">
+          <h3 data-i18n="p5.t">YAKOOTA — generative-AI assistant</h3>
+          <span class="proj-year">2024</span>
+        </div>
+        <p data-i18n="p5.d">
+          An end-to-end document chatbot built on document parsing, embeddings and a contextual retrieval
+          workflow, with robustness testing and successive iterations on answer quality.
+        </p>
+        <ul class="tags"><li>Azure OpenAI</li><li>LangChain</li><li>Embeddings</li><li>RAG</li></ul>
+        <p class="proj-note" data-i18n="p5.note">Private project — details on request.</p>
+      </article>
+
+      <article class="proj reveal" data-tags="ml app">
+        <div class="proj-head">
+          <h3 data-i18n="p6.t">EuroMotion Model Factory</h3>
+          <span class="proj-year">2026</span>
+        </div>
+        <p data-i18n="p6.d">
+          A system-dynamics web app for strategic planning of an electric and software-defined vehicle
+          supply chain: a JSON-driven simulation engine, interactive node diagrams and charted scenario
+          outputs.
+        </p>
+        <ul class="tags"><li>React 18</li><li>TypeScript</li><li>Vite</li><li>React Flow</li><li>Recharts</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/EuroMotion-Model-Factory" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="ml app">
+        <div class="proj-head">
+          <h3 data-i18n="p7.t">Cartoonizer GAN</h3>
+          <span class="proj-year">2024</span>
+        </div>
+        <p data-i18n="p7.d">
+          A Pix2Pix conditional GAN turning photographs into cartoon-style illustrations: full training
+          pipeline, a shipped pretrained model, a PyQt5 desktop app and quantitative evaluation with
+          SSIM and PSNR.
+        </p>
+        <ul class="tags"><li>TensorFlow 2</li><li>Pix2Pix</li><li>OpenCV</li><li>PyQt5</li><li>SSIM / PSNR</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/cartoonizer-gan" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ================= RESEARCH & CERTIFICATION ================= -->
+<section id="research">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="kick.res">Credentials</span>
+      <h2 data-i18n="res.h">Certification &amp; publication</h2>
+      <p class="sec-sub" data-i18n="res.sub">Both verifiable online.</p>
+    </div>
+
+    <div class="feature-grid">
+      <article class="feature reveal">
+        <h3>Microsoft Certified: Azure AI Apps and Agents Developer Associate</h3>
+        <span class="feature-meta" data-i18n="res.cert.meta">Microsoft · July 2026 — valid to July 2027</span>
+        <p data-i18n="res.cert.d">
+          Scope: designing AI applications and agents on Azure AI Foundry and Azure OpenAI, RAG,
+          orchestration, evaluation and responsible deployment.
+        </p>
+        <p>
+          <span class="cred">Credential ID 3F9FED23D318BD9C</span>
+          <span class="cred">Certification D6K6AD-CB45D0</span>
+        </p>
+      </article>
+
+      <article class="feature reveal">
+        <h3 data-i18n="res.pub.t">Preprint — VCBench: evaluating open-weight LLMs</h3>
+        <span class="feature-meta">SSRN · 2026</span>
+        <p data-i18n="res.pub.d">
+          A methodology study of the failure modes and calibration of locally run open-weight LLMs for
+          rare-event prediction. An intentional negative result, documented with calibration diagnostics —
+          because an evaluation that only reports wins is not an evaluation.
+        </p>
+        <p>
+          <a class="link-btn" href="https://ssrn.com/abstract=6832218" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6"/><path d="M20 4 11 13"/><path d="M18 14v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h5"/></svg>
+            ssrn.com/abstract=6832218
+          </a>
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EDUCATION ================= -->
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="kick.edu">Education</span>
+      <h2 data-i18n="edu.h">Education</h2>
+    </div>
+
+    <ol class="timeline">
+      <li class="tl-item reveal">
+        <div class="tl-top">
+          <span class="tl-role" data-i18n="edu1.t">MSc Data Engineering &amp; Cloud Computing — aivancity</span>
+          <span class="tl-when" data-i18n="edu1.when">Nov 2026 – 2027</span>
+        </div>
+        <p class="tl-org">
+          <span data-i18n="edu1.org">RNCP Level 7: Expert in data infrastructure and large-scale data processing · taught in English</span>
+          <span class="tl-place">Villejuif, France</span>
+        </p>
+        <ul class="tl-points">
+          <li data-i18n="edu1.b1">Spark, Kafka, MongoDB, Databricks, AWS and Azure, distributed algorithms, data-oriented project management, cloud certifications.</li>
+        </ul>
+      </li>
+
+      <li class="tl-item reveal">
+        <div class="tl-top">
+          <span class="tl-role" data-i18n="edu2.t">Programme Grande École — aivancity School of AI &amp; Data</span>
+          <span class="tl-when" data-i18n="edu2.when">2021 – 2026</span>
+        </div>
+        <p class="tl-org">
+          <span data-i18n="edu2.org">Master-level degree in Artificial Intelligence and Data Science (RNCP38584, Level 7, Bac+5)</span>
+          <span class="tl-place">Paris, France</span>
+        </p>
+        <ul class="tl-points">
+          <li data-i18n="edu2.b1">A hybrid curriculum combining artificial intelligence, data science, business literacy, AI ethics, GDPR and the EU AI Act, project management, innovation and digital transformation.</li>
+          <li data-i18n="edu2.b2">Projects delivered through the AI Clinic, aivancity's real-world programme working on live needs from companies and start-ups.</li>
+        </ul>
+      </li>
+    </ol>
+
+    <div class="two-col" style="margin-top: 40px;">
+      <div class="panel reveal">
+        <h3 data-i18n="langs.h">Languages</h3>
+        <div class="lang-row">
+          <div>
+            <span class="lang-name" data-i18n="lang.fr">French</span>
+            <span class="lang-note" data-i18n="lang.fr.n">Fluent, professional</span>
+          </div>
+          <span class="lang-lvl" data-i18n="lang.fr.l">Native</span>
+        </div>
+        <div class="lang-row">
+          <div>
+            <span class="lang-name" data-i18n="lang.en">English</span>
+            <span class="lang-note" data-i18n="lang.en.n">Master's taught in English · daily technical reading</span>
+          </div>
+          <span class="lang-lvl">C1</span>
+        </div>
+      </div>
+
+      <div class="panel reveal">
+        <h3 data-i18n="str.h">How I work</h3>
+        <ul class="check-list">
+          <li data-i18n="str.1">Methodical, and partial to measurement over intuition</li>
+          <li data-i18n="str.2">Autonomous, with technical curiosity</li>
+          <li data-i18n="str.3">Able to explain technical work to non-technical stakeholders</li>
+          <li data-i18n="str.4">Systematic documentation</li>
+          <li data-i18n="str.5">At ease in multidisciplinary teams</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CV ================= -->
+<section id="cv">
+  <div class="wrap">
+    <div class="sec-head reveal">
+      <span class="sec-kicker" data-i18n="kick.cv">CV</span>
+      <h2 data-i18n="cv.h">Download my CV</h2>
+      <p class="sec-sub" data-i18n="cv.sub">Pick the version closest to the role you are hiring for — or take the full one.</p>
+    </div>
+
+    <div class="cv-grid">
+      <a class="cv-card reveal" href="assets/cv/Samir-Mahamat-Saleh-CV-EN.pdf" download>
+        <span class="cv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg>
+        </span>
+        <span>
+          <h3>AI Engineer <span class="cv-lang">EN</span></h3>
+          <p data-i18n="cv.en.d">GenAI, RAG and LLM agents. The English-language CV.</p>
+        </span>
+      </a>
+
+      <a class="cv-card reveal" href="assets/cv/Samir-Mahamat-Saleh-CV-FR-GenAI-Engineer.pdf" download>
+        <span class="cv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg>
+        </span>
+        <span>
+          <h3>Applied GenAI Engineer <span class="cv-lang">FR</span></h3>
+          <p data-i18n="cv.genai.d">End-to-end GenAI applications, RAG, agents and workflows.</p>
+        </span>
+      </a>
+
+      <a class="cv-card reveal" href="assets/cv/Samir-Mahamat-Saleh-CV-FR-Data-Engineer.pdf" download>
+        <span class="cv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg>
+        </span>
+        <span>
+          <h3>Consultant Data Engineer <span class="cv-lang">FR</span></h3>
+          <p data-i18n="cv.de.d">Pipelines, transformations, data quality and industrialisation.</p>
+        </span>
+      </a>
+
+      <a class="cv-card reveal" href="assets/cv/Samir-Mahamat-Saleh-CV-FR-Python-Fullstack.pdf" download>
+        <span class="cv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg>
+        </span>
+        <span>
+          <h3>Python Fullstack Developer <span class="cv-lang">FR</span></h3>
+          <p data-i18n="cv.fs.d">Python and Flask, React 18 and TypeScript, REST APIs, CI/CD.</p>
+        </span>
+      </a>
+
+      <a class="cv-card reveal" href="assets/cv/Samir-Mahamat-Saleh-CV-FR-Complet.pdf" download>
+        <span class="cv-ico" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v12"/><path d="m7 11 5 5 5-5"/><path d="M4 20h16"/></svg>
+        </span>
+        <span>
+          <h3 data-i18n="cv.full.t">Full CV — every detail <span class="cv-lang">FR</span></h3>
+          <p data-i18n="cv.full.d">The long version: complete skills, all projects, full experience.</p>
+        </span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="contact-box reveal">
+      <span class="sec-kicker" data-i18n="kick.contact">Contact</span>
+      <h2 data-i18n="contact.h">Let's talk</h2>
+      <p data-i18n="contact.sub">
+        I am available immediately and open to permanent roles in AI engineering, data science and data
+        engineering across the Paris region. If my profile fits something you are hiring for, I would be
+        glad to hear about it.
+      </p>
+
+      <div class="cta-row">
+        <a class="btn btn-primary" id="mailBtn" href="#">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="2.5" y="4.5" width="19" height="15" rx="2.5"/><path d="m3 7 9 6 9-6"/>
+          </svg>
+          <span data-i18n="contact.mail">Send me an email</span>
+        </a>
+
+        <a class="btn" href="https://www.linkedin.com/in/samir-adam-mahamat-saleh-4252b0210" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM3 9h4v12H3V9zm6.5 0h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05 4 0 4.9 2.5 4.9 5.75V21h-4v-5.8c0-1.4-.5-2.35-1.75-2.35-1.05 0-1.65.7-1.9 1.4-.1.25-.12.6-.12.95V21h-4V9z"/></svg>
+          <span data-i18n="contact.li">Connect on LinkedIn</span>
+        </a>
+
+        <a class="btn btn-ghost" href="https://github.com/MoSaleh47" target="_blank" rel="noopener noreferrer">
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+          <span data-i18n="contact.gh">See my code</span>
+        </a>
+      </div>
+
+      <p class="contact-mail">
+        <span data-i18n="contact.or">Or write directly to</span>
+        <a id="mailText" href="#">&nbsp;</a>
+      </p>
+      <noscript>
+        <p class="contact-mail">mahamatsaleh.samiradam [at] gmail [dot] com</p>
+      </noscript>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <p style="margin:0;">© <span id="year">2026</span> Samir Mahamat Saleh</p>
+    <ul class="footer-links">
+      <li><a href="https://github.com/MoSaleh47" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/samir-adam-mahamat-saleh-4252b0210" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+      <li><a href="https://ssrn.com/abstract=6832218" target="_blank" rel="noopener noreferrer">SSRN</a></li>
+      <li><a href="#top" data-i18n="footer.top">Back to top</a></li>
+    </ul>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

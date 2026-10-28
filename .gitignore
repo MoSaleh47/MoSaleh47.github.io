@@ -1,0 +1,9 @@
+# Local CV staging area - the published copies live in assets/cv/
+CVs/
+
+# OS / editor noise
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
