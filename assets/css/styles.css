@@ -885,7 +885,15 @@ section + section { border-top: 1px solid var(--border); }
   .hero-card span { font-size: 40px; }
 }
 
-@media (max-width: 780px) {
+/* The French labels are longer than the English ones, so the nav needs about
+   1017px with the full name beside it and 859px with just the monogram. Drop
+   the name first, then fall back to the menu button, so the header never
+   pushes the page wider than the viewport. */
+@media (max-width: 1080px) {
+  .brand-text { display: none; }
+}
+
+@media (max-width: 940px) {
   .nav-toggle { display: inline-grid; }
   .nav-links {
     position: absolute;
