@@ -544,6 +544,29 @@
       <article class="proj reveal" data-tags="genai eval app">
         <span class="proj-badge" data-i18n="badge.os">Open source</span>
         <div class="proj-head">
+          <h3>OpenResearch Scout Agent</h3>
+          <span class="proj-year">2026</span>
+        </div>
+        <p data-i18n="p8.d">
+          A tool-using research agent served over FastAPI: give it a topic and it searches arXiv,
+          ranks the results and returns a source-grounded brief. Three tools (search, ranker, cost
+          estimator), Pydantic schemas on both ends, guardrails covering prompt injection and
+          credential-exfiltration patterns, and a regression eval harness scoring quality, safety,
+          latency, schema validity and tool usage. Requests are logged to JSONL behind a
+          <code>/metrics</code> endpoint; the Dockerfile targets Hugging Face Spaces.
+        </p>
+        <ul class="tags"><li>FastAPI</li><li data-i18n="t.agents2">Agents &amp; tools</li><li>Pydantic</li><li data-i18n="t.guard">Guardrails</li><li data-i18n="t.evalh">Eval harness</li><li>Docker</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/openresearch-scout-agent" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="genai eval app">
+        <span class="proj-badge" data-i18n="badge.os">Open source</span>
+        <div class="proj-head">
           <h3>AI Act Evidence Desk</h3>
           <span class="proj-year">2026</span>
         </div>
@@ -607,6 +630,52 @@
         <ul class="tags"><li>SimPy</li><li data-i18n="t.gbm">Gradient boosting</li><li>Flask</li><li>ECharts</li><li>Streamlit</li><li data-i18n="t.backtest">Backtesting</li></ul>
         <div class="proj-foot">
           <a class="link-btn" href="https://github.com/MoSaleh47/Hospital-Digital-Twin" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="ml eval app">
+        <span class="proj-badge" data-i18n="badge.os">Open source</span>
+        <div class="proj-head">
+          <h3 data-i18n="p9.t">Multimodal Medical QA with BiomedCLIP</h3>
+          <span class="proj-year">2026</span>
+        </div>
+        <p data-i18n="p9.d">
+          Zero-shot medical visual question answering on WorldMedQA/V. BiomedCLIP is a CLIP-style
+          model, so it cannot generate an answer — the task is posed as retrieval instead: every
+          answer option becomes a candidate prompt, each is scored against the image, and the
+          highest similarity wins. The app shows the score for every option rather than just the
+          winner, which makes the failure mode visible where distractors look like the right
+          answer. Includes a sampled batch evaluation against ground truth.
+        </p>
+        <ul class="tags"><li>BiomedCLIP</li><li data-i18n="t.vlm">Vision-language</li><li>Streamlit</li><li>PyTorch</li><li data-i18n="t.zero">Zero-shot</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/multimodal-medical-qa" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
+            <span data-i18n="link.repo">Repository</span>
+          </a>
+        </div>
+      </article>
+
+      <article class="proj reveal" data-tags="ml app">
+        <span class="proj-badge" data-i18n="badge.os">Open source</span>
+        <div class="proj-head">
+          <h3 data-i18n="p10.t">Smart Reading Interface</h3>
+          <span class="proj-year">2026</span>
+        </div>
+        <p data-i18n="p10.d">
+          A hands-free reader: words highlight as you say them aloud, and MediaPipe hand gestures
+          drive zoom and page turns without touching the keyboard. The gesture classifier is
+          geometric rather than learned — pinch and spread from thumb-to-index distance normalised
+          by hand size, swipes from centroid velocity, with a cooldown so a held gesture does not
+          fire repeatedly. Inspectable rules beat a black box when the model is steering someone's
+          reading interface.
+        </p>
+        <ul class="tags"><li>MediaPipe</li><li>PySide6</li><li>OpenCV</li><li data-i18n="t.speech">Speech recognition</li><li data-i18n="t.hci">Human-machine interface</li></ul>
+        <div class="proj-foot">
+          <a class="link-btn" href="https://github.com/MoSaleh47/smart-reading-interface" target="_blank" rel="noopener noreferrer">
             <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.1-1.47-1.1-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.88 1.52 2.32 1.08 2.88.82.09-.64.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.95 0-1.09.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.65 0 0 .84-.27 2.75 1.03a9.4 9.4 0 0 1 5 0c1.91-1.3 2.75-1.03 2.75-1.03.55 1.38.2 2.4.1 2.65.64.7 1.03 1.6 1.03 2.69 0 3.85-2.35 4.7-4.58 4.94.36.31.68.92.68 1.86v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2z"/></svg>
             <span data-i18n="link.repo">Repository</span>
           </a>

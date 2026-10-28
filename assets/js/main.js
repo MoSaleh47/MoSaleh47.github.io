@@ -323,6 +323,22 @@
     "p4.t": "Hospital Digital Twin",
     "p4.d": "Un jumeau numérique d'hôpital en événements discrets (SimPy) — urgences, réanimation et service général — avec un boarding réaliste : une réanimation saturée bloque les lits d'urgence et la congestion remonte en cascade. Un modèle de gradient boosting prévoit le pic de charge en réanimation à 24 h, backtesté hors échantillon face à une baseline naïve. Sous vague épidémique, un paquet de capacités ciblé fait passer l'attente médiane aux urgences de 4 613 à 71 minutes et traite 63 % de patients en plus ; ajouter des lits d'urgence aurait égalé ce chiffre tout en triplant le temps de boarding. Deux interfaces sur un seul moteur : un command center Flask/ECharts et un tableau de bord Streamlit.",
 
+    "p8.d": "Un agent de recherche outillé servi via FastAPI : donnez-lui un sujet, il interroge arXiv, classe les résultats et renvoie une synthèse sourcée. Trois outils (recherche, classement, estimation de coût), des schémas Pydantic en entrée comme en sortie, des garde-fous couvrant l'injection de prompt et les tentatives d'exfiltration de secrets, et un harnais d'évaluation de non-régression mesurant qualité, sûreté, latence, validité de schéma et usage des outils. Les requêtes sont journalisées en JSONL derrière un endpoint <code>/metrics</code> ; le Dockerfile cible Hugging Face Spaces.",
+
+    "p9.t": "Question-réponse médicale multimodale avec BiomedCLIP",
+    "p9.d": "Question-réponse visuelle médicale en zero-shot sur WorldMedQA/V. BiomedCLIP est un modèle de type CLIP : il ne peut pas générer de réponse, la tâche est donc posée comme une recherche. Chaque option de réponse devient un prompt candidat, chacun est scoré face à l'image, et la similarité la plus élevée l'emporte. L'application affiche le score de toutes les options et pas seulement du gagnant, ce qui rend visible le mode d'échec lorsque les distracteurs ressemblent à la bonne réponse. Inclut une évaluation par lots échantillonnée face à la vérité terrain.",
+
+    "p10.t": "Smart Reading Interface",
+    "p10.d": "Un lecteur mains libres : les mots se surlignent à mesure qu'on les lit à voix haute, et des gestes de la main détectés par MediaPipe pilotent le zoom et le changement de page sans toucher au clavier. Le classifieur de gestes est géométrique plutôt qu'appris — pincement et écartement à partir de la distance pouce-index normalisée par la taille de la main, balayages à partir de la vitesse du centroïde, avec un délai de garde pour qu'un geste maintenu ne se déclenche pas en boucle. Des règles inspectables valent mieux qu'une boîte noire quand le modèle pilote l'interface de lecture de quelqu'un.",
+
+    "t.agents2": "Agents &amp; outils",
+    "t.guard": "Garde-fous",
+    "t.evalh": "Harnais d'évaluation",
+    "t.vlm": "Vision-langage",
+    "t.zero": "Zero-shot",
+    "t.speech": "Reconnaissance vocale",
+    "t.hci": "Interface homme-machine",
+
     "p5.t": "YAKOOTA — assistant d'IA générative",
     "p5.d": "Chatbot documentaire de bout en bout fondé sur le parsing de documents, les embeddings et un workflow de recherche contextualisée, avec tests de robustesse et itérations successives sur la qualité des réponses.",
     "p5.note": "Projet privé — détails sur demande.",
